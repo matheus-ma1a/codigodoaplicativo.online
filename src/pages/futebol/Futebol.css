@@ -1,0 +1,26 @@
+.sinal-Futebol , .wrapper-entrada{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
+  align-items: center
+}
+
+.ifremeDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.img-Futebol{
+  width: 85px;
+  margin-bottom: 20px;
+}
+
+.confirm-Futebol , .enter-Futebol{
+  font-size: large;
+}
+
+.protect-Futebol{
+  margin-bottom: 25px;
+
+}
