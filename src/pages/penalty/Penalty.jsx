@@ -79,7 +79,7 @@ function Penalty() {
                     </div>
 
                 </div>
-                <Iframe link={'https://bit.ly/SinalValidado'} />
+                <Iframe link={'https://bomdebet.com/?r=frgkldbm'} />
             </div>
         </div>
     );

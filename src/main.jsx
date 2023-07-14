@@ -9,6 +9,9 @@ import Penalty from './pages/penalty/Penalty.jsx'
 import Futebol from './pages/futebol/Futebol.jsx'
 import Tiger from './pages/tiger/Tger.jsx'
 import Bacboo from './pages/bacboo/Bacboo.jsx'
+import Rabbit from './pages/rabbit/Rabbit.jsx'
+import Rato from './pages/rato/Rato.jsx'
+import Touro from './pages/touro/Touro.jsx'
 
 const router = createBrowserRouter([
   {
@@ -34,6 +37,18 @@ const router = createBrowserRouter([
   {
     path: '/Bacboo',
     element: <Bacboo/>
+  },
+  {
+    path: '/Rabbit',
+    element: <Rabbit/>
+  },
+  {
+    path: '/Rato',
+    element: <Rato/>
+  },
+  {
+    path: '/Touro',
+    element: <Touro />
   },
 ])
 

@@ -50,7 +50,7 @@ function Bacboo() {
             disabled={soltaSinal ? true : false}
           >idendentificar sinal</button>
         </div>
-        <Iframe link={'https://bit.ly/SinalValidado'} />
+        <Iframe link={'https://bomdebet.com/?r=frgkldbm'} />
       </div>
     </div>
   );

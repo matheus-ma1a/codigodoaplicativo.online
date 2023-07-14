@@ -16,22 +16,22 @@ export default function Footer() {
       </li>
 
       <li className="li" >
-        <a className="a" href="#"><AiFillDollarCircle /></a>
+        <a className="a" href=""><AiFillDollarCircle /></a>
         <p className="texteIcons"  >Deposito</p>
       </li>
 
       <li className="li home" >
-        <a className="homeSvg" href="https://zep.bet/">< AiFillHome /></a>
+        <a className="homeSvg" href="">< AiFillHome /></a>
         <p className="texteIcons" >cadastrar</p>
       </li>
 
       <li className="li" >
-        <a className="a" href="#"><BsCurrencyDollar /></a>
+        <a className="a" href=""><BsCurrencyDollar /></a>
         <p className="texteIcons"  >saque</p>
       </li>
 
       <li className="li" >
-        <a className="a" href="#"><AiFillMessage /></a>
+        <a className="a" href=""><AiFillMessage /></a>
         <p className="texteIcons"  >comunidade</p>
       </li>
 

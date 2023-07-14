@@ -1,21 +1,24 @@
 import { Link } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 import Li from './components/Li/Li'
 import Footer from './components/footer/Footer'
-
-
+import ButtonPro from './components/butaoPro/ButtonPro'
+import Modal from './components/modal/Modal'
+import InstalacaoDoApp from './components/InstalacaoDoApp/InstalacaoDoApp'
 
 function App() {
+  const [closeModal, setCloseModal] = useState(false)
 
   useEffect(() => {
     document.title = 'Deshboard';
   })
 
-
   return (
     <div className='wrapper-app' >
+
+      {closeModal && <Modal closeModal={closeModal}><button onClick={() => { setCloseModal(false) }} >Fechar</button></Modal>}
 
       <div className='img-slide-Home' >
         <img className='imgSLD-Home' src="imgs/imgSlide/1.png" alt="" />
@@ -28,34 +31,45 @@ function App() {
       </div>
 
       <header>
-        <p className='p1-Home' >ESCOLHA A MELHOR OPÇÃO</p>
-        <p className='p2-Home' >PARA LUCRAR AGORA</p>
+        <p className='p1-Home' >Torne-se PRO</p>
+        <ButtonPro />
       </header>
 
       <ul>
-        <Link to={'/mines'} >
-          <Li img='../imgs/mines.jpg' />
-        </Link>
-
-        <Link to={'/penalty'} >
-          <Li img='../imgs/penalty.jpg' />
-        </Link>
-
-        <Link to={'/Futebol'} >
-          <Li img='../imgs/Futebol.png' />
+        <Link to={'#'} onClick={() => { setCloseModal(true) }} >
+          <Li img='/imgs/mines-pb.jpg' />
         </Link>
 
         <Link to={'/Tiger'} >
           <Li img='/imgs/Tiger.jpg' />
         </Link>
 
-        <Link to={'/Bacboo'} >
-          <Li img='/imgs/Bac-Bo.jpg' />
+        <Link to={'#'} onClick={() => { setCloseModal(true) }}>
+          <Li img='/imgs/rabbit-black.jpg' />
         </Link>
-        
-      </ul>
 
-    <Footer />
+        <Link to={'#'} onClick={() => { setCloseModal(true) }}>
+          <Li img='/imgs/rato-black.jpg' />
+        </Link>
+        <Link to={'/Touro'} >
+          <Li img='/imgs/ox.jpg' />
+        </Link>
+
+        <Link to={'#'} onClick={() => { setCloseModal(true) }} >
+          <Li img='/imgs/penalty-pc.jpg' />
+        </Link>
+
+        <Link to={'#'} onClick={() => { setCloseModal(true) }}>
+          <Li img='/imgs/studio-pb.jpg' />
+        </Link>
+
+        <Link to={'#'} onClick={() => { setCloseModal(true) }}>
+          <Li img='/imgs/bacbo-BLACK.jpg' />
+        </Link>
+
+      </ul>
+      <InstalacaoDoApp />
+      <Footer />
     </div>
   )
 }
