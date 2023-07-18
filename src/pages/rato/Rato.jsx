@@ -22,7 +22,7 @@ function Rato() {
         <ButtonHome />
         <div className="main">
 
-          <img src="/public/imgs/rabbit.jpg" alt="" />
+          <img src="/imgs/rabbit.jpg" alt="" />
 
           <h1>Mouse</h1>
 
@@ -37,7 +37,7 @@ function Rato() {
           >pegar sinal</button>
 
           <p className="alerta" >SINAIS SÓ FUNCIONAM NA PLATAFORMA ABAIXO</p>
-          <Iframe link={'https://bomdebet.com/?r=pnroqglq'} />
+          <Iframe link={'https://go.aff.brazabet.net/ft728uhr'} />
         </div>
       </div>
     </div>

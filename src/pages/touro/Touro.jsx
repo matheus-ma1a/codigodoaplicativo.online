@@ -4,6 +4,13 @@ import ButtonHome from "../../components/butaohome/ButtonHome";
 import SinalTouro from "./SinalTouro";
 import Timer from "../../components/Timer"
 import Iframe from "../../components/iframe/Iframe";
+import { styled } from "styled-components";
+
+const Img = styled.img`
+  width: 200px;
+  border-radius: 5px;
+  border: 0.1rem solid white;
+`
 
 function Touro() {
   const [render, setRender] = useState(false)
@@ -22,7 +29,7 @@ function Touro() {
         <ButtonHome />
         <div className="main">
 
-          <img src="/imgs/ox.jpg" alt="" />
+          <Img  src="/imgs/ox.jpg" alt="" />
 
           <h1>Ox Fortune</h1>
 
@@ -37,7 +44,7 @@ function Touro() {
           >pegar sinal</button>
 
           <p className="alerta" >SINAIS SÓ FUNCIONAM NA PLATAFORMA ABAIXO</p>
-          <Iframe link={'https://bomdebet.com/?r=pnroqglq'} />
+          <Iframe link={'https://go.aff.brazabet.net/b4r86d00'} />
         </div>
       </div>
     </div>

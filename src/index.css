@@ -7,10 +7,10 @@
   text-decoration: none;}
 
 body {
-  background-color: #030036;
+  background-image: url("/imgs/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-
 
 body .content {
   width: 100vw;
@@ -27,7 +27,6 @@ body .wrapper{
   width: 95%;
   max-width: 1440px;
   height: 98vh;
-  background: #0063d4;
   border-radius: 15px;
 
 }

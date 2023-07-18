@@ -38,7 +38,7 @@ function Tiger() {
           >pegar sinal</button>
 
           <p className="alerta" >SINAIS SÓ FUNCIONAM NA PLATAFORMA ABAIXO</p>
-          <Iframe link={'https://bomdebet.com/?r=pnroqglq'} />
+          <Iframe link={'https://go.aff.brazabet.net/2kdwrzlw'} />
         </div>
       </div>
     </div>

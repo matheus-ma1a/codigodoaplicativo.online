@@ -1,14 +1,16 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Link } from 'react-router-dom'
-import './ButtonHome.css'
+import { ButtonH } from '../../styled'
+
+
 
 function ButtonHome() {
-  return ( 
+  return (
     <Link to={'/'} >
-    <button>Home</button>
-  </Link>
-   );
+      <ButtonH>Home</ButtonH>
+    </Link>
+  );
 }
 
 export default ButtonHome;

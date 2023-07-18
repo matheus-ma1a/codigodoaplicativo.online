@@ -5,6 +5,7 @@ import { useState, } from 'react';
 import Timer from "../../components/Timer"
 import Frases from "./components/Frases"
 import Iframe from '../../components/iframe/Iframe';
+import { ButtonH } from '../../styled.js'
 
 function Bacboo() {
   const [render, setRender] = useState(false)
@@ -23,10 +24,17 @@ function Bacboo() {
     return cor[numeroAleatorio]
   }
 
+  const stilobotao = {
+    backgroundColor: render ? 'red' : '#30B309',
+    width: '95%'
+  }
+
   return (
     <div className="content">
       <div className="wrapper">
+
         <ButtonHome />
+
         <div className="main-bacbo center">
           <div className="analisando">
             <p>{soltaSinal ? <Frases setRender={setRender} /> : '--'}</p>
@@ -42,15 +50,18 @@ function Bacboo() {
             </div>
           </div>
         </div>
+
         <div className="div-bacboo">
-          <button
+          <ButtonH
             onClick={handle}
             className='button-bacboo'
-            style={{ backgroundColor: render ? 'red' : '#30B309' }}
+            style={stilobotao}
             disabled={soltaSinal ? true : false}
-          >idendentificar sinal</button>
+          >idendentificar sinal</ButtonH>
         </div>
-        <Iframe link={'https://bomdebet.com/?r=frgkldbm'} />
+
+        <Iframe link={'https://go.aff.brazabet.net/vnexuocj'} />
+
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import './Mines.css'
+import { ButtonH } from "../../styled";
 import MinerGrid from "./MinerGrid/MineGrid";
 import MinesPreload from "./MinerPreload/MinesPreload";
 import Timer from "../../components/Timer"
@@ -62,15 +63,15 @@ function Mines() {
             </div>
 
             <div className="wapperBtn-Mines">
-              <button
+              <ButtonH
                 disabled={render ? true : false}
                 style={{ backgroundColor: render ? 'red' : '#30B309' }}
                 onClick={handle}
-                className="geraSinal-Mines">HACKEAR SINAL</button>
+                className="geraSinal-Mines">HACKEAR SINAL</ButtonH>
             </div>
           </div>
         </div>
-        <Iframe link={'https://bomdebet.com/?r=frgkldbm'} />
+        <Iframe link={'https://go.aff.brazabet.net/n4eptmnd'} />
       </div>
     </div>
 

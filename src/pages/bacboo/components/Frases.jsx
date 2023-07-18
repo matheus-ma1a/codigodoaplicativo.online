@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 // eslint-disable-next-line react/prop-types
 const FrasesComponent = () => {
-  const [frases,] = useState(['Primeira frase', 'Segunda frase', 'Terceira frase']);
+  const [frases,] = useState(['Analisando o codigo', 'Injetando algoritimo', 'Hakeando...','--']);
   const [fraseAtual, setFraseAtual] = useState(frases[0]);
   const [indiceFrase, setIndiceFrase] = useState(1);
 
@@ -14,7 +14,7 @@ const FrasesComponent = () => {
     }
   };
 
-  setTimeout(exibirProximaFrase, 1000);
+  setTimeout(exibirProximaFrase, 1500);
 
   return (
     <>

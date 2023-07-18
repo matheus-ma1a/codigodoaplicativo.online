@@ -6,6 +6,10 @@ const ButtonStyled = styled.button`
   height: 50px;
   margin-top: 20px;
   font-size: 1.2rem;
+	font-weight: 600;
+
+	background: rgb(7,202,121);
+	background: radial-gradient(circle, #069b5d 9%, #1ca12c 61%);
 
 
   animation: myAnim 3s linear 2s infinite normal forwards;
@@ -39,9 +43,9 @@ const ButtonStyled = styled.button`
 `
 
 function ButtonPro() {
-  return (
-    <ButtonStyled>Adiquira o plano Pro</ButtonStyled>
-  );
+	return (
+		<ButtonStyled>Adiquira o plano Pro</ButtonStyled>
+	);
 }
 
 export default ButtonPro;

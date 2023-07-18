@@ -6,7 +6,6 @@
   list-style-type: none;
 }
 
-
 header {
   width: fit-content;
   padding: 50px 200px;
@@ -14,7 +13,6 @@ header {
   align-items: center;
   flex-direction: column;
   margin: 80px 0 50px 0 ;
-  background-color: #1c1761;
   border-radius: 5px;
 }
 
