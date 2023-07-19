@@ -71,7 +71,7 @@ function Mines() {
             </div>
           </div>
         </div>
-        <Iframe link={'https://go.aff.brazabet.net/n4eptmnd'} />
+        <Iframe link={'https://bit.ly/funcionandointeligencia'} />
       </div>
     </div>
 

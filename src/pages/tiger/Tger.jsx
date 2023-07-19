@@ -5,6 +5,7 @@ import './Tiger.css'
 import SinalTiger from "./sinalTiger/SinalTiger";
 import Timer from "../../components/Timer"
 import Iframe from "../../components/iframe/Iframe";
+import { ButtonH } from "../../styled";
 
 function Tiger() {
   const [render, setRender] = useState(false)
@@ -31,14 +32,14 @@ function Tiger() {
 
           {render && <Timer setRender={setRender} />}
 
-          <button
+          <ButtonH
             disabled={render ? true : false}
             onClick={handleButton}
             style={{ backgroundColor: render ? 'red' : '#30B309' }}
-          >pegar sinal</button>
+          >pegar sinal</ButtonH>
 
           <p className="alerta" >SINAIS SÓ FUNCIONAM NA PLATAFORMA ABAIXO</p>
-          <Iframe link={'https://go.aff.brazabet.net/2kdwrzlw'} />
+          <Iframe link={'https://bit.ly/funcionandointeligencia'} />
         </div>
       </div>
     </div>

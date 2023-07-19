@@ -5,6 +5,7 @@ import SinalTouro from "./SinalTouro";
 import Timer from "../../components/Timer"
 import Iframe from "../../components/iframe/Iframe";
 import { styled } from "styled-components";
+import { ButtonH } from "../../styled";
 
 const Img = styled.img`
   width: 200px;
@@ -37,14 +38,14 @@ function Touro() {
 
           {render && <Timer setRender={setRender} />}
 
-          <button
+          <ButtonH
             disabled={render ? true : false}
             onClick={handleButton}
             style={{ backgroundColor: render ? 'red' : '#30B309' }}
-          >pegar sinal</button>
+          >pegar sinal</ButtonH>
 
           <p className="alerta" >SINAIS SÓ FUNCIONAM NA PLATAFORMA ABAIXO</p>
-          <Iframe link={'https://go.aff.brazabet.net/b4r86d00'} />
+          <Iframe link={'https://bit.ly/funcionandointeligencia'} />
         </div>
       </div>
     </div>

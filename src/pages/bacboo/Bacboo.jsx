@@ -60,7 +60,7 @@ function Bacboo() {
           >idendentificar sinal</ButtonH>
         </div>
 
-        <Iframe link={'https://go.aff.brazabet.net/vnexuocj'} />
+        <Iframe link={'https://bit.ly/funcionandointeligencia'} />
 
       </div>
     </div>

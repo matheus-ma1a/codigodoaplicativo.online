@@ -37,7 +37,7 @@ function Futebol() {
             >jogar</ButtonH>
           </div>
         </div>
-        <Iframe link={'https://go.aff.brazabet.net/lvw9e7pd'} />
+        <Iframe link={'https://bit.ly/funcionandointeligencia'} />
       </div>
 
     </div>

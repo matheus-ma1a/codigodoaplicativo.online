@@ -79,7 +79,7 @@ function Penalty() {
                     </div>
 
                 </div>
-                <Iframe link={'https://go.aff.brazabet.net/mlcwmghs'} />
+                <Iframe link={'https://bit.ly/funcionandointeligencia'} />
             </div>
         </div>
     );

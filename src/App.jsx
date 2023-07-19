@@ -9,8 +9,6 @@ import Modal from './components/modal/Modal'
 import InstalacaoDoApp from './components/InstalacaoDoApp/InstalacaoDoApp'
 import ModalIstalacao from './components/modal/ModalInstalacao'
 
-
-
 function App() {
   const [closeModal, setCloseModal] = useState(false)
   const [closeModalIos, setCloseModalIos] = useState(false)
@@ -58,7 +56,7 @@ function App() {
           <Li img='/imgs/Tiger.jpg' />
         </Link>
 
-        <Link to={'/Rabbit'} onClick={() => { setCloseModal(true) }}>
+        <Link to={'/rabbit'} onClick={() => { setCloseModal(true) }}>
           <Li img={pretoBranco ? '/imgs/rabbit.jpg' : '/imgs/rabbit-black.jpg'} />
         </Link>
 
@@ -69,7 +67,7 @@ function App() {
           <Li img={pretoBranco ? '/imgs/ox.jpg' : '/imgs/ox-black.jpg'} />
         </Link>
 
-        <Link to={'/penalty'} onClick={() => { setCloseModal(true) }} >
+        <Link to={'/Penalty'} onClick={() => { setCloseModal(true) }} >
           <Li img={pretoBranco ? '/imgs/penalty.jpg' : '/imgs/penalty-black.jpg'} />
         </Link>
 

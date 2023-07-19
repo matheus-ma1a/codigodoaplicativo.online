@@ -22,6 +22,7 @@ export const ButaoFechar = styled.button`
   font-size: 15px;
   font-weight: 500;
   text-decoration: underline;
+  border: none;
 `
 
 export const ButtonH = styled.button`

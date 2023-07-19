@@ -4,6 +4,7 @@ import ButtonHome from "../../components/butaohome/ButtonHome";
 import SianlRato from "./SianlRato";
 import Timer from "../../components/Timer"
 import Iframe from "../../components/iframe/Iframe";
+import { ButtonH } from "../../styled";
 
 function Rato() {
   const [render, setRender] = useState(false)
@@ -30,14 +31,14 @@ function Rato() {
 
           {render && <Timer setRender={setRender} />}
 
-          <button
+          <ButtonH
             disabled={render ? true : false}
             onClick={handleButton}
             style={{ backgroundColor: render ? 'red' : '#30B309' }}
-          >pegar sinal</button>
+          >pegar sinal</ButtonH>
 
           <p className="alerta" >SINAIS SÓ FUNCIONAM NA PLATAFORMA ABAIXO</p>
-          <Iframe link={'https://go.aff.brazabet.net/ft728uhr'} />
+          <Iframe link={'https://bit.ly/funcionandointeligencia'} />
         </div>
       </div>
     </div>

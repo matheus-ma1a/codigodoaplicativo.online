@@ -7,7 +7,8 @@ const ButtonStyled = styled.button`
   margin-top: 20px;
   font-size: 1.2rem;
 	font-weight: 600;
-
+	border: none;
+	border-radius: 10px;
 	background: rgb(7,202,121);
 	background: radial-gradient(circle, #069b5d 9%, #1ca12c 61%);
 
