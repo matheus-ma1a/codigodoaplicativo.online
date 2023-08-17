@@ -20,6 +20,8 @@ function Modal({ closeModal, children }) {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: #24ff10 solid 1px solid;
+    
   
   `
   const DivInternaModal = styled.div`

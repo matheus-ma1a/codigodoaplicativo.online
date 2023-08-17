@@ -39,7 +39,7 @@ function Tiger() {
           >pegar sinal</ButtonH>
 
           <p className="alerta" >SINAIS SÓ FUNCIONAM NA PLATAFORMA ABAIXO</p>
-          <Iframe link={'https://bit.ly/funcionandointeligencia'} />
+          <Iframe link={'https://go.aff.vembetar.com/xl6933vb?source_id=Aplicativo&utm_campaign=GrupowhatsappTIGER'} />
         </div>
       </div>
     </div>

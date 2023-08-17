@@ -71,7 +71,7 @@ function Mines() {
             </div>
           </div>
         </div>
-        <Iframe link={'https://bit.ly/funcionandointeligencia'} />
+        <Iframe link={'https://go.aff.vembetar.com/9x525i98?source_id=Aplicativo&utm_campaign=GrupowhatsappMINES'} />
       </div>
     </div>
 

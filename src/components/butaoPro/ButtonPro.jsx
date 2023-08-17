@@ -1,8 +1,9 @@
 import React, { PureComponent } from 'react'
 import styled from 'styled-components'
 
-const ButtonStyled = styled.button`
-  width: 20rem;
+const ButtonStyled = styled.a`
+	padding: 10px 30px;
+  min-width: 20rem;
   height: 50px;
   margin-top: 20px;
   font-size: 1.2rem;
@@ -11,6 +12,9 @@ const ButtonStyled = styled.button`
 	border-radius: 10px;
 	background: rgb(7,202,121);
 	background: radial-gradient(circle, #069b5d 9%, #1ca12c 61%);
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
 
 
   animation: myAnim 3s linear 2s infinite normal forwards;
@@ -45,7 +49,7 @@ const ButtonStyled = styled.button`
 
 function ButtonPro() {
 	return (
-		<ButtonStyled>Adiquira o plano Pro</ButtonStyled>
+		<ButtonStyled href='https://pepper.com.br/checkout/index.html?p=60231&o=65165' >Adiquira o plano Pro</ButtonStyled>
 	);
 }
 

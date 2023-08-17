@@ -60,7 +60,7 @@ function Bacboo() {
           >idendentificar sinal</ButtonH>
         </div>
 
-        <Iframe link={'https://bit.ly/funcionandointeligencia'} />
+        <Iframe />
 
       </div>
     </div>

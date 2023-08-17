@@ -4,12 +4,42 @@
   box-sizing: border-box;
   color: white;
   font-family: 'Poppins', sans-serif;
-  text-decoration: none;}
+  text-decoration: none;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: none;
+    scrollbar-color: #8f54a0 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 0px;
+    border: 3px none #ffffff;
+  }
 
 body {
   background-image: url("/imgs/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 768px) {
+  body{
+    background-size: auto;
+    
+  }
 }
 
 body .content {
@@ -19,11 +49,10 @@ body .content {
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  padding-bottom: 5rem ;
 }
 
 body .wrapper{
-  overflow: hidden;
-  overflow-y: scroll;
   width: 95%;
   max-width: 1440px;
   height: 98vh;
@@ -44,3 +73,9 @@ li{
   justify-content: center;
   align-items: center;
 }
+
+.p1-Home{
+  text-align: center;
+}
+
+

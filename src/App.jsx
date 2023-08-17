@@ -13,7 +13,7 @@ function App() {
   const [closeModal, setCloseModal] = useState(false)
   const [closeModalIos, setCloseModalIos] = useState(false)
   const [closeModalAndroid, setCloseModalAndroid] = useState(false)
-  const [pretoBranco, setpretoBranco] = useState(true)
+  const [pretoBranco, setpretoBranco] = useState(false)
 
   useEffect(() => {
     document.title = 'Deshboard';
@@ -32,21 +32,35 @@ function App() {
         <img className='imgSLD-Home' src="imgs/imgSlide/3.png" alt="" />
         <img className='imgSLD-Home' src="imgs/imgSlide/5.png" alt="" />
         <img className='imgSLD-Home' src="imgs/imgSlide/9.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/11.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/2.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/3.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/5.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/9.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/11.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/2.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/3.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/5.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/9.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/11.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/2.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/3.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/5.png" alt="" />
+        <img className='imgSLD-Home' src="imgs/imgSlide/9.png" alt="" />
       </div>
+
       <header>
         {
           pretoBranco ?
-
             ''
-
             :
-
             <div>
               <h1 className='p1-Home' >Torne-se PRO</h1>
               <ButtonPro />
             </div>
         }
       </header>
+
       <ul>
         <Link to={'/Mines'} onClick={() => { setCloseModal(true) }} >
           <Li img='/imgs/mines.jpg' />
@@ -56,26 +70,26 @@ function App() {
           <Li img='/imgs/Tiger.jpg' />
         </Link>
 
-        <Link to={'/rabbit'} onClick={() => { setCloseModal(true) }}>
+        <Link to={pretoBranco ? '/Rabbit' : '#'} onClick={() => { setCloseModal(true) }}>
           <Li img={pretoBranco ? '/imgs/rabbit.jpg' : '/imgs/rabbit-black.jpg'} />
         </Link>
 
-        <Link to={'/Rato'} onClick={() => { setCloseModal(true) }}>
+        <Link to={ pretoBranco ? '/Rato' : '#' } onClick={() => { setCloseModal(true) }}>
           <Li img={pretoBranco ? '/imgs/rato.jpg' : '/imgs/rato-black.jpg'} />
         </Link>
-        <Link to={'/Touro'} onClick={() => { setCloseModal(true) }} >
+        <Link to={ pretoBranco ? '/Touro' : '#' } onClick={() => { setCloseModal(true) }} >
           <Li img={pretoBranco ? '/imgs/ox.jpg' : '/imgs/ox-black.jpg'} />
         </Link>
 
-        <Link to={'/Penalty'} onClick={() => { setCloseModal(true) }} >
+        <Link to={ pretoBranco ? '/penalty' : '#' } onClick={() => { setCloseModal(true) }} >
           <Li img={pretoBranco ? '/imgs/penalty.jpg' : '/imgs/penalty-black.jpg'} />
         </Link>
 
-        <Link to={'/Futebol'} onClick={() => { setCloseModal(true) }}>
+        <Link to={ pretoBranco ? '/Futebol' : '#' } onClick={() => { setCloseModal(true) }}>
           <Li img={pretoBranco ? '/imgs/studio.jpg' : '/imgs/studio-black.jpg'} />
         </Link>
 
-        <Link to={'/Bacboo'} onClick={() => { setCloseModal(true) }}>
+        <Link to={ pretoBranco ? '/Bacboo' : '#' } onClick={() => { setCloseModal(true) }}>
           <Li img={pretoBranco ? '/imgs/bacbo.jpg' : '/imgs/bacbo-black.jpg'} />
         </Link>
 

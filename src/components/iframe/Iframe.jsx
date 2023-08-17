@@ -5,7 +5,7 @@ import React from 'react'
 function Iframe({link}) {
   return ( 
     <div className="ifrmeWapper-Mines" >
-      <iframe src={link} frameBorder="0" ></iframe>
+      <iframe src={'https://go.flybet.com/C-X0NVXPOMO1'} frameBorder="0" ></iframe>
     </div>
    );
 }

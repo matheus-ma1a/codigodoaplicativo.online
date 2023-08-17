@@ -18,17 +18,30 @@
   padding: 20px;
 }
 iframe {
-  z-index: 1;
-  width: 95%;
-  height: 80vh;
+  position: absolute;
+  min-width: 90%;
+  min-height: 100vh;
+  top: 0;
+  left: 50%;
+  transform: translatex(-50%);
+  padding-bottom: 5rem;
+
 }
 
 .ifrmeWapper-Mines {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-bottom: 20px;
-  border-radius: 0 0 15px 15px;
+  
+}
+
+@media (max-width: 768px) {
+  .ifrmeWapper-Mines{
+    width: 100%;
+  }
 }
 
 
